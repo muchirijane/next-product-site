@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Learn <a href="https://nextjs.org">Next.js!</a> through <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest 2021</a> 
         </h1>
 
         <p className={styles.description}>
@@ -24,20 +25,20 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <p>Start by reading the in-depth information about Next.js features API and many more.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://hacktoberfest.digitalocean.com/" className={styles.card}>
             <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Hacktoberfest, is a month-long celebration of open source, where open-source software enthusiasts, beginners, and the developer community perticipate in contributing to open-source projects.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://github.com/topics/hacktoberfest"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Explore projects &rarr;</h2>
+            <p>Discover open-source projects that match your skills and start contributing.</p>
           </a>
 
           <a
