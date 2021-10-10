@@ -65,4 +65,7 @@ https://github.com/your-USERNAME/next-product-site.git
 1. If your PR touches multiple parts, consider adding a bullet list of accomplishments.
 1. Amazing you just made your first successful Pull request. Just wait a few minutes for me to review and merge it.
 
+### Add your profile to the project
+Go to the [contributors.md file](https://github.com/muchirijane/next-product-site/blob/main/CONTRIBUTORS.md) and add your profile there.
+
 ## 🎃 Happy Hacking!! 🎃
