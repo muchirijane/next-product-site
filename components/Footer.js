@@ -1,14 +1,11 @@
-import Container from '@mui/material/Container';
-import { Box } from '@mui/system';
+import Container from "@mui/material/Container"
+import { Box } from "@mui/system"
 const Footer = () => {
   return (
-    <Box>
-      <>
-        <h2>Footer</h2>
-      </>
-    </Box>
+    <Container maxWidth="lg">
+      <h2>Footer</h2>
+    </Container>
   )
 }
 
-export default Footer;
-
+export default Footer
