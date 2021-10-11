@@ -1,26 +1,25 @@
 <img width="1168" alt="hacktoberfest intro (1)" src="https://user-images.githubusercontent.com/54930887/136788641-198eb633-0b2b-4303-9291-0944ac5907c7.png">
 
-
-
-
-
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is celebration that runs from 1st - 31st October. It encourages people to get involved in open source to any public repository and join amazing communities.
 
 ## 🎃 Project: Coding up Product website 🎃
+
 This is a service website design by [Wahid Ari](https://wahidari.vercel.app/) to showcase services provided by a start up.
-It's has a clean design and a great UX for beginners to satrt off with. 
+It's has a clean design and a great UX for beginners to start off with.
 
 <img width="1600" alt="Frame 59" src="https://user-images.githubusercontent.com/54930887/136714374-a1bce8a7-de3f-4be5-a390-15f783895d98.png">
 
-
 #### Technologies
+
 - CSS
 - React
 - [Material UI | MUI](https://mui.com/)
 - Vercel
 
 ---
+
 #### Installation
+
 ```bash
     Use a command Prompt and type : npm install
     # or
@@ -28,6 +27,7 @@ It's has a clean design and a great UX for beginners to satrt off with.
 ```
 
 ## How To Use
+
 First, run the development server:
 
 ```bash
@@ -73,8 +73,7 @@ https://github.com/your-USERNAME/next-product-site.git
 1. Amazing you just made your first successful Pull request. Just wait a few minutes for me to review and merge it.
 
 ### Add your profile to the project
+
 Go to the [contributors.md file](https://github.com/muchirijane/next-product-site/blob/main/CONTRIBUTORS.md) and add your profile there.
 
 <img width="1168" alt="happy hacking" src="https://user-images.githubusercontent.com/54930887/136788177-61792c1b-d1c8-47cc-bc94-1635136cc47a.png">
-
-
