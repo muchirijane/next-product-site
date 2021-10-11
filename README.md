@@ -1,6 +1,42 @@
-# 👻 Hacktoberfest Website Project 👻
+<img width="1168" alt="hacktoberfest intro (1)" src="https://user-images.githubusercontent.com/54930887/136788641-198eb633-0b2b-4303-9291-0944ac5907c7.png">
+
+
+
+
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is celebration that runs from 1st - 31st October. It encourages people to get involved in open source to any public repository and join amazing communities.
+
+## 🎃 Project: Coding up Product website 🎃
+This is a service website design by [Wahid Ari](https://wahidari.vercel.app/) to showcase services provided by a start up.
+It's has a clean design and a great UX for beginners to satrt off with. 
+
+<img width="1600" alt="Frame 59" src="https://user-images.githubusercontent.com/54930887/136714374-a1bce8a7-de3f-4be5-a390-15f783895d98.png">
+
+
+#### Technologies
+- CSS
+- React
+- [Material UI | MUI](https://mui.com/)
+- Vercel
+
+---
+#### Installation
+```bash
+    Use a command Prompt and type : npm install
+    # or
+    npm i
+```
+
+## How To Use
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Steps to take to contribute to the project
 
@@ -24,7 +60,10 @@ https://github.com/your-USERNAME/next-product-site.git
 1. - Stage all the changes using - `git add .`
    - Commit the staged changes using - `git commit -m "your commit message"`. Make sure to write meaningful commit messages.
    - Before you push the commit make sure to pull the changes in the remote branch using `git pull origin develop`, in case of conflicts, please resolve them.
-   - After pulling the changes, push the all the changes using `git push origin branch-name`
+   - After pulling the changes, push the all the changes using `git push --set-upstream origin new-branch`
+   ```bash
+    git push --set-upstream origin feature/contribution-guidelines:develop
+   ```
 1. Create your PR into the `Develop branch` (not main branch).
 
 1. Create a Pull Request against the `develop` branch, make sure you don't make PR against the `main` branch.
@@ -33,4 +72,9 @@ https://github.com/your-USERNAME/next-product-site.git
 1. If your PR touches multiple parts, consider adding a bullet list of accomplishments.
 1. Amazing you just made your first successful Pull request. Just wait a few minutes for me to review and merge it.
 
-## 🎃 Happy Hacking!! 🎃
+### Add your profile to the project
+Go to the [contributors.md file](https://github.com/muchirijane/next-product-site/blob/main/CONTRIBUTORS.md) and add your profile there.
+
+<img width="1168" alt="happy hacking" src="https://user-images.githubusercontent.com/54930887/136788177-61792c1b-d1c8-47cc-bc94-1635136cc47a.png">
+
+
