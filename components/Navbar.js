@@ -78,7 +78,6 @@ const Navbar = () => {
                     <MenuIcon />
                   </IconButton>
                   <Menu
-                    id="menu-appbar"
                     sx={{ padding: "20px 30px" }}
                     anchorEl={anchorEl}
                     anchorOrigin={{
@@ -151,7 +150,7 @@ const Navbar = () => {
                   <Box sx={{ display: "flex", alignItems: "center" }}>
                     <Link
                       className={classes.link}
-                      href="/product"
+                      href="/"
                       color="inherit"
                       underline="none"
                       mr={3}
