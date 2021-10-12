@@ -90,7 +90,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://muchirijane.github.io/portfolio-gatsby/"><img src="https://avatars.githubusercontent.com/u/54930887?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jane Tracy Muthoni</b></sub></a><br /><a href="#projectManagement-muchirijane" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://muchirijane.github.io/portfolio-gatsby/"><img src="https://avatars.githubusercontent.com/u/54930887?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jane Tracy Muthoni</b></sub></a><br /><a href="#projectManagement-muchirijane" title="Project Management">📆</a> <a href="https://github.com/muchirijane/next-product-site/commits?author=muchirijane" title="Code">💻</a> <a href="#maintenance-muchirijane" title="Maintenance">🚧</a> <a href="https://github.com/muchirijane/next-product-site/commits?author=muchirijane" title="Documentation">📖</a> <a href="#design-muchirijane" title="Design">🎨</a></td>
   </tr>
 </table>
 
