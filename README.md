@@ -1,4 +1,7 @@
 <img width="1168" alt="hacktoberfest intro (1)" src="https://user-images.githubusercontent.com/54930887/136788641-198eb633-0b2b-4303-9291-0944ac5907c7.png">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is celebration that runs from 1st - 31st October. It encourages people to get involved in open source to any public repository and join amazing communities.
 
@@ -77,3 +80,23 @@ https://github.com/your-USERNAME/next-product-site.git
 Go to the [contributors.md file](https://github.com/muchirijane/next-product-site/blob/main/CONTRIBUTORS.md) and add your profile there.
 
 <img width="1168" alt="happy hacking" src="https://user-images.githubusercontent.com/54930887/136788177-61792c1b-d1c8-47cc-bc94-1635136cc47a.png">
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://muchirijane.github.io/portfolio-gatsby/"><img src="https://avatars.githubusercontent.com/u/54930887?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jane Tracy Muthoni</b></sub></a><br /><a href="#projectManagement-muchirijane" title="Project Management">📆</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
