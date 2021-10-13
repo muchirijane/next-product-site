@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "muchirijane",
+      "name": "Jane Tracy Muthoni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54930887?v=4",
+      "profile": "https://muchirijane.github.io/portfolio-gatsby/",
+      "contributions": [
+        "projectManagement",
+        "code",
+        "maintenance",
+        "doc",
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "next-product-site",
+  "projectOwner": "muchirijane",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
