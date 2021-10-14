@@ -16,9 +16,16 @@ const Feature = () => {
         Product was Built Specifically for You
       </Typography>
 
-      <Grid container spacing={3} mt={2}>
-        <Grid item xs={12} sm={6} md={3}>
+      <Grid container spacing={3} mt={2} justify="center">
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          md={3}
+
+        >
           <Box
+
             mb={1}
             sx={{
               width: "40px",
@@ -33,8 +40,10 @@ const Feature = () => {
           >
             <CodeIcon sx={{ color: grey["A100"] }} />
           </Box>
-          <Typography variant="h5">First click tests</Typography>
-          <Typography variant="body1">
+          <Typography  variant="h5">
+            First click tests
+          </Typography>
+          <Typography  variant="body1">
             We have a first click test system that allows you to test your Ideas
             before we work on them.
           </Typography>
