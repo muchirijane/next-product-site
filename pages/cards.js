@@ -22,7 +22,7 @@ export default function Cards() {
       <Grid style={{ margin: "auto", marginTop: "70px", display: "flex" }}>
         <Card
           sx={{ maxWidth: 200, maxHeight: 250 }}
-          style={{ margin: "auto", backgroundColor: "#f5f5f5", minWidth: "290px",minHeight: '250px' }}
+          style={{ margin: "auto", backgroundColor: "#f5f5f5", minWidth: "350px",minHeight: '250px' }}
         >
           <Box
             mb={1}
@@ -42,10 +42,10 @@ export default function Cards() {
             <MouseIcon fontSize="small" sx={{ color: grey["A100"] }}></MouseIcon>
           </Box>
           <CardContent>
-            <Typography fontWeight="800" gutterBottom variant="h5" component="div">
+            <Typography fontFamily='Menlo' fontWeight="800" gutterBottom variant="h5" component="div">
               Special Business
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography padding='30px' fontFamily='Menlo' variant="body2" color="text.secondary">
               Products help you see how many more days you need to work to reach your
               financial goal for the month and year.
             </Typography>
@@ -56,13 +56,14 @@ export default function Cards() {
       <Grid style={{ margin: "auto", marginTop: "70px", display: "flex" }}>
         <Card
           sx={{ maxWidth: 200, maxHeight: 250 }}
-          style={{ margin: "auto", backgroundColor: "#f5f5f5", minWidth: "290px",minHeight: '250px' }}
+          style={{ margin: "auto", backgroundColor: "#f5f5f5", minWidth: "350px",minHeight: '250px'}}
         >
           <Box
             mb={1}
             sx={{
               width: "40px",
               height: "40px",
+              
               backgroundColor: blue[500],
               borderRadius: "15px",
               display: "flex",
@@ -76,10 +77,10 @@ export default function Cards() {
             <LinkIcon fontSize="small" sx={{ color: grey["A100"] }}></LinkIcon>
           </Box>
           <CardContent>
-            <Typography fontWeight="800" gutterBottom variant="h5" component="div">
+            <Typography fontFamily='Menlo' fontWeight="800" gutterBottom variant="h5" component="div">
             Instant Result
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography padding='30px' fontFamily='Menlo' variant="body2" color="text.secondary">
             Products help you see how many more days you need to work to reach your
           financial goal for the month and year
             </Typography>
@@ -90,7 +91,7 @@ export default function Cards() {
       <Grid style={{ margin: "auto", marginTop: "70px", display: "flex" }}>
         <Card
           sx={{ maxWidth: 200, maxHeight: 250 }}
-          style={{ margin: "auto", backgroundColor: "#f5f5f5", minWidth: "290px", minHeight: '250px' }}
+          style={{ margin: "auto", backgroundColor: "#f5f5f5", minWidth: "370px", minHeight: '250px' }}
         >
           <Box
             mb={1}
@@ -110,10 +111,10 @@ export default function Cards() {
             <Favorite fontSize="small" sx={{ color: grey["A100"] }}></Favorite>
           </Box>
           <CardContent>
-            <Typography fontWeight="800" gutterBottom variant="h5" component="div">
+            <Typography fontFamily='Menlo' fontWeight="800" gutterBottom variant="h5" component="div">
             Fastest way to organize
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography padding='30px' fontFamily='Menlo' variant="body2" color="text.secondary">
             Products help you see how many more days you need to work to reach your
           financial goal for the month and year
             </Typography>

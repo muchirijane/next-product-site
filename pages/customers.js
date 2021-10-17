@@ -1,16 +1,12 @@
 import Layout from "../components/layout/layout"
 import Container from "@mui/material/Container"
 import { Grid, Typography } from "@mui/material"
-import Box from "@mui/material/Box"
-import { blue, red, orange, green, lightGreen, grey } from "@mui/material/colors"
-import Favorite from "@mui/icons-material/Favorite"
 import Image from "next/dist/client/image"
 import microsoftLogo from "/website-assets/microsoft.svg"
 import airbnbLogo from "/website-assets/airbnb.svg"
 import fedexLogo from "/website-assets/fedex.svg"
 import googleLogo from "/website-assets/Google.svg"
 import Cards from "./cards"
-import { padding } from "@mui/system"
 import '../styles/Home.module.css'
 
 export default function Customers() {
