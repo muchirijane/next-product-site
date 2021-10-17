@@ -1,39 +1,29 @@
 import React from "react"
-import mouse from "/website-assets/Macbook-Customer-page.svg"
 import Grid from "@mui/material/Grid"
-import Image from "next/image"
-import { Card, Container } from "@mui/material"
-import CardMedia from "@mui/material/CardMedia"
+import { Card, Container, Link } from "@mui/material"
 import CardContent from "@mui/material/CardContent"
-import CardActions from "@mui/material/CardActions"
-import Button from "@mui/material/Button"
 import { Typography } from "@mui/material"
 import Box from "@mui/material/Box"
 import { blue, red, orange, green, lightGreen, grey } from "@mui/material/colors"
-import DeleteIcon from "@mui/icons-material/Delete"
 import Favorite from "@mui/icons-material/Favorite"
+import LinkIcon from '@mui/icons-material/Link';
+import MouseIcon from '@mui/icons-material/Mouse';
+import "../styles/Home.module.css"
+import Mouse from "@mui/icons-material/Mouse"
+
 
 export default function Cards() {
+  // const theme = []
+  // const largeScreen = useMediaQuery(theme.breakpoints.up("md"))
+  // const wid = window.innerWidth();
   return (
-    <Grid
-      wrap="nowrap"
-      container
-      spacing={0}
-      display="inline-block"
-      direction="row"
-      alignItems="center"
-      justify="center"
-      style={{ minHeight: "100vh" }}
-    >
-      <Grid
-      wrap="nowrap"
-        justify="center"
-        item
-        direction="row"
-        xs={3}
-        style={{ margin: "auto", marginTop: "10px" }}
-      >
-        <Card sx={{ maxWidth: 200, maxHeight: 300 }} style={{ margin: "auto" }}>
+    // <ThemeProvider theme={baseTheme}>
+    <Grid container>
+      <Grid style={{ margin: "auto", marginTop: "70px", display: "flex" }}>
+        <Card
+          sx={{ maxWidth: 200, maxHeight: 250 }}
+          style={{ margin: "auto", backgroundColor: "#f5f5f5", minWidth: "290px",minHeight: '250px' }}
+        >
           <Box
             mb={1}
             sx={{
@@ -46,78 +36,91 @@ export default function Cards() {
               marginTop: "10px",
               justifyContent: "center",
               alignItems: "center",
-              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.2)",
+              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.5)",
             }}
           >
-            <Favorite sx={{ color: grey["A100"] }}></Favorite>
+            <MouseIcon fontSize="small" sx={{ color: grey["A100"] }}></MouseIcon>
           </Box>
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Lizard
+            <Typography fontWeight="800" gutterBottom variant="h5" component="div">
+              Special Business
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over 6,000
-              species, ranging across all continents except Antarctica
+              Products help you see how many more days you need to work to reach your
+              financial goal for the month and year.
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ maxWidth: 200, maxHeight: 300 }} style={{ margin: "auto" }}>
+      </Grid>
+
+      <Grid style={{ margin: "auto", marginTop: "70px", display: "flex" }}>
+        <Card
+          sx={{ maxWidth: 200, maxHeight: 250 }}
+          style={{ margin: "auto", backgroundColor: "#f5f5f5", minWidth: "290px",minHeight: '250px' }}
+        >
           <Box
             mb={1}
             sx={{
               width: "40px",
               height: "40px",
-              backgroundColor: lightGreen[800],
+              backgroundColor: blue[500],
               borderRadius: "15px",
               display: "flex",
               margin: "auto",
               marginTop: "10px",
               justifyContent: "center",
               alignItems: "center",
-              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.2)",
+              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.5)",
             }}
           >
-            <Favorite sx={{ color: grey["A100"] }}></Favorite>
+            <LinkIcon fontSize="small" sx={{ color: grey["A100"] }}></LinkIcon>
           </Box>
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Lizard
+            <Typography fontWeight="800" gutterBottom variant="h5" component="div">
+            Instant Result
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over 6,000
-              species, ranging across all continents except Antarctica
+            Products help you see how many more days you need to work to reach your
+          financial goal for the month and year
             </Typography>
           </CardContent>
         </Card>
-        <Card sx={{ maxWidth: 200, maxHeight: 300 }} style={{ margin: "auto" }}>
+      </Grid>
+
+      <Grid style={{ margin: "auto", marginTop: "70px", display: "flex" }}>
+        <Card
+          sx={{ maxWidth: 200, maxHeight: 250 }}
+          style={{ margin: "auto", backgroundColor: "#f5f5f5", minWidth: "290px", minHeight: '250px' }}
+        >
           <Box
             mb={1}
             sx={{
               width: "40px",
               height: "40px",
-              backgroundColor: lightGreen[800],
+              backgroundColor: red[500],
               borderRadius: "15px",
               display: "flex",
               margin: "auto",
               marginTop: "10px",
               justifyContent: "center",
               alignItems: "center",
-              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.2)",
+              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.5)",
             }}
           >
-            <Favorite sx={{ color: grey["A100"] }}></Favorite>
+            <Favorite fontSize="small" sx={{ color: grey["A100"] }}></Favorite>
           </Box>
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              Lizard
+            <Typography fontWeight="800" gutterBottom variant="h5" component="div">
+            Fastest way to organize
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over 6,000
-              species, ranging across all continents except Antarctica
+            Products help you see how many more days you need to work to reach your
+          financial goal for the month and year
             </Typography>
           </CardContent>
         </Card>
       </Grid>
     </Grid>
+    // </ThemeProvider>
   )
 }
