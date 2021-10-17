@@ -1,6 +1,6 @@
 import React from "react"
 import Grid from "@mui/material/Grid"
-import { Card, Container, Link } from "@mui/material"
+import { Card } from "@mui/material"
 import CardContent from "@mui/material/CardContent"
 import { Typography } from "@mui/material"
 import Box from "@mui/material/Box"
@@ -9,15 +9,10 @@ import Favorite from "@mui/icons-material/Favorite"
 import LinkIcon from '@mui/icons-material/Link';
 import MouseIcon from '@mui/icons-material/Mouse';
 import "../styles/Home.module.css"
-import Mouse from "@mui/icons-material/Mouse"
 
 
 export default function Cards() {
-  // const theme = []
-  // const largeScreen = useMediaQuery(theme.breakpoints.up("md"))
-  // const wid = window.innerWidth();
   return (
-    // <ThemeProvider theme={baseTheme}>
     <Grid container>
       <Grid style={{ margin: "auto", marginTop: "70px", display: "flex" }}>
         <Card
@@ -63,7 +58,7 @@ export default function Cards() {
             sx={{
               width: "40px",
               height: "40px",
-              
+
               backgroundColor: blue[500],
               borderRadius: "15px",
               display: "flex",
@@ -122,6 +117,5 @@ export default function Cards() {
         </Card>
       </Grid>
     </Grid>
-    // </ThemeProvider>
   )
 }
