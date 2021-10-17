@@ -65,7 +65,7 @@ export default function Customers() {
             marginRight: "0",
           }}
         >
-          <Typography fontWeight="800" variant="h3">
+          <Typography paddingTop='30px' fontWeight="800" variant="h3">
             Why Choose Product?
           </Typography>
           <Cards />
