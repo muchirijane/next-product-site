@@ -1,6 +1,6 @@
 <img width="1168" alt="hacktoberfest intro (1)" src="https://user-images.githubusercontent.com/54930887/136788641-198eb633-0b2b-4303-9291-0944ac5907c7.png">
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is celebration that runs from 1st - 31st October. It encourages people to get involved in open source to any public repository and join amazing communities.
@@ -92,6 +92,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://muchirijane.github.io/portfolio-gatsby/"><img src="https://avatars.githubusercontent.com/u/54930887?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jane Tracy Muthoni</b></sub></a><br /><a href="#projectManagement-muchirijane" title="Project Management">📆</a> <a href="https://github.com/muchirijane/next-product-site/commits?author=muchirijane" title="Code">💻</a> <a href="#maintenance-muchirijane" title="Maintenance">🚧</a> <a href="https://github.com/muchirijane/next-product-site/commits?author=muchirijane" title="Documentation">📖</a> <a href="#design-muchirijane" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/westerandr"><img src="https://avatars.githubusercontent.com/u/20700150?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andre Westerlund</b></sub></a><br /><a href="https://github.com/muchirijane/next-product-site/commits?author=westerandr" title="Code">💻</a></td>
+    <td align="center"><a href="http://lesliethe.dev"><img src="https://avatars.githubusercontent.com/u/17536124?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Leslie L Behum</b></sub></a><br /><a href="https://github.com/muchirijane/next-product-site/commits?author=itsthecheat" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/chirayumit001"><img src="https://avatars.githubusercontent.com/u/84196347?v=4?s=100" width="100px;" alt=""/><br /><sub><b>chirayumit001</b></sub></a><br /><a href="https://github.com/muchirijane/next-product-site/commits?author=chirayumit001" title="Code">💻</a></td>
   </tr>
 </table>
 
