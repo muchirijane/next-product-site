@@ -33,23 +33,25 @@ export default function Customers() {
             }}
           >
             <Grid
+            className="gridlogo"
               container
               justifyContent="center"
               justify="space-around"
               spacing={4}
               paddingTop='50px'
               paddingBottom='50px'
+              paddingLeft={0}
             >
-              <Grid item spacing={1}>
+              <Grid item className="gridlogo" spacing={1} paddingLeft={0}>
                 <Image src={airbnbLogo} width={200} height={100} />
               </Grid>
-              <Grid item spacing={1}>
+              <Grid item spacing={1} paddingLeft={0}>
                 <Image src={googleLogo} width={200} height={100} />
               </Grid>
-              <Grid item spacing={1}>
+              <Grid item spacing={1} paddingLeft={0}>
                 <Image src={microsoftLogo} width={200} height={100} />
               </Grid>
-              <Grid item spacing={1}>
+              <Grid item spacing={1} paddingLeft={0}>
                 <Image src={fedexLogo} width={200} height={100} />
               </Grid>
             </Grid>
@@ -61,7 +63,7 @@ export default function Customers() {
           maxWidth="xl"
           style={{
             textAlign: "center",
-            backgroundColor: "#f5f5f5",
+            // backgroundColor: "#f5f5f5",
             marginRight: "0",
           }}
         >
