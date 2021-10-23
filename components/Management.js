@@ -52,6 +52,7 @@ const Management = () => {
             >
               Accessory makers
             </Typography>
+
             <Typography variant="body1" style={{ marginTop: "10px" }}>
               While most people enjoy casino gambling, sports betting, lottery and
               bingo playing for the fun
@@ -68,7 +69,7 @@ const Management = () => {
               Alterationists
             </Typography>
             <Typography variant="body1">
-              If you are looking for a new way to promote your business that won't
+              If you are looking for a new way to promote your business that won&apos;t
               cost you more money
             </Typography>
           </List>
