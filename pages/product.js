@@ -6,8 +6,8 @@ export default function Product() {
     <Layout>
       <Container maxWidth="lg">
         <h1>Product Page</h1>
-        <HowProductWork />
       </Container>
+      <HowProductWork />
     </Layout>
   )
 }
