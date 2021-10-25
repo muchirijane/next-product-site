@@ -7,19 +7,19 @@ export default function Customers() {
   
   const stories =[
     {
-      title: 'Increasing Prosperity with Positive Thinking',
+      title: 'Increasing Prosperity with Positive Thinking 1',
       author:'Wahid Ari',
       date: '03 March 2019',
       banner:'/resources/story-demo-banner.jpeg'
     },
     {
-      title: 'Increasing Prosperity with Positive Thinking', 
+      title: 'Increasing Prosperity with Positive Thinking 2', 
       author:'Wahid Ari',
       date: '03 March 2019',
       banner:'/resources/story-demo-banner.jpeg'
     },
     {
-      title: 'Increasing Prosperity with Positive Thinking', 
+      title: 'Increasing Prosperity with Positive Thinking 3', 
       author:'Wahid Ari',
       date: '03 March 2019',
       banner:'/resources/story-demo-banner.jpeg'
