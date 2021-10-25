@@ -10,19 +10,37 @@ export default function Customers() {
       title: 'Increasing Prosperity with Positive Thinking 1',
       author:'Wahid Ari',
       date: '03 March 2019',
-      banner:'/resources/story-demo-banner.jpeg'
+      banner:'/resources/post1.png'
     },
     {
-      title: 'Increasing Prosperity with Positive Thinking 2', 
+      title: 'Motivation is the first step to success', 
       author:'Wahid Ari',
       date: '03 March 2019',
-      banner:'/resources/story-demo-banner.jpeg'
+      banner:'/resources/post2.png'
     },
     {
-      title: 'Increasing Prosperity with Positive Thinking 3', 
+      title: 'Sucessful step for your personal or business life', 
+      author:'Jane Tracy',
+      date: '25 March 2019',
+      banner:'/resources/post3.png'
+    },
+    {
+      title: 'How to increase your productivity',
+      author:'Jane Tracy',
+      date: '20 October 2021',
+      banner:'/resources/post4.png'
+    },
+    {
+      title: 'Grow your start up with 5 steps', 
+      author:'Jane Tracy',
+      date: '25 October 2021',
+      banner:'/resources/post5.png'
+    },
+    {
+      title: 'How to be more confident during presentation', 
       author:'Wahid Ari',
-      date: '03 March 2019',
-      banner:'/resources/story-demo-banner.jpeg'
+      date: '26 October 2021',
+      banner:'/resources/post6.png'
     }
   ]
   return (
