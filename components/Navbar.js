@@ -150,7 +150,7 @@ const Navbar = () => {
                   <Box sx={{ display: "flex", alignItems: "center" }}>
                     <Link
                       className={classes.link}
-                      href="/product"
+                      href="/"
                       color="inherit"
                       underline="none"
                       mr={3}

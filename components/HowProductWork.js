@@ -1,33 +1,36 @@
 import { Typography, Grid, Box, Button, Container } from "@mui/material"
 import Image from "next/image"
-import macbookStepOneImg from "/website-assets/Macbook-step-1.svg"
-import macbookStepTwoImg from "/website-assets/Macbook-step-2.svg"
-import macbookStepThreeImg from "/website-assets/Macbook-step-3.svg"
-import cardsRedGraphImg from "/website-assets/cards-red-graph.svg"
-import cardsBlueGraphImg from "/website-assets/cards-blue-graph.svg"
+import macbookStepOneImg from '/public/customer/product-step1.png'
+import macbookStepTwoImg from '/public/customer/product-step2.png'
+import macbookStepThreeImg from '/public/customer/product-step3.png'
+import cardsRedGraphImg from  '/public/customer/stock.png'
+import cardsBlueGraphImg from  '/public/customer/chart.png'
 
 const HowProductWork = () => {
   const content = [
     {
       image: macbookStepOneImg,
+      alt: "product step 1 process",
       title: "Apply for a product",
       p: "Completing our easy step-by-step application form gives you access to multiple businesses with multiple products. We analyse your business through our proprietary credit analysis technology",
     },
     {
       image: macbookStepTwoImg,
+      alt: "step 2 process",
       title: "Pay fully refundable",
-      p: "Product will contaccting you instantly to receive payment of the Application Fee. if no offer of product is available, your fee will be refunded",
+      p: "Product will contacting you instantly to receive payment of the Application Fee. if no offer of product is available, your fee will be refunded",
     },
     {
       image: macbookStepThreeImg,
+      alt: "step 3 product on using the product",
       title: "Completion",
-      p: "Product will continue to liase between borrower and manager to procees and complete a quick and efficient settlement",
+      p: "Product will continue to liase between borrower and manager to process and complete a quick and efficient settlement",
     },
   ]
 
   return (
     <>
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{marginTop: "8rem"}}>
         <Box component="section" color="#22343D">
           <Typography align="center" variant="h4" component="h2">
             How Product Work
@@ -43,8 +46,8 @@ const HowProductWork = () => {
             >
               <Grid item xs={12} md={6} textAlign="center">
                 <Image
-                  src={macbookStepOneImg}
-                  alt="macbook showing latest activity"
+                  src={row.image}
+                  alt={row.alt}
                 />
               </Grid>
               <Grid item xs={12} md={6} my={3}>
