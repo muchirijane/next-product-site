@@ -1,7 +1,7 @@
 import { Typography, Grid, Box,Button, Container, Link } from "@mui/material"
-import facebookIcon from '/public/resource/facebook.svg'
-import instagramIcon from '/public/resource/instagram.svg'
-import twitterIcon from '/public/resource/twitter.svg'
+import facebookIcon from '/public/resources/facebook.svg'
+import instagramIcon from '/public/resources/instagram.svg'
+import twitterIcon from '/public/resources/twitter.svg'
 import Image from 'next/image'
 export default function Social() {
   const icons =[
