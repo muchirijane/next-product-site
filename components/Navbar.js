@@ -14,6 +14,7 @@ import IconButton from "@mui/material/IconButton"
 import MenuItem from "@mui/material/MenuItem"
 import Menu from "@mui/material/Menu"
 import MenuIcon from "@mui/icons-material/Menu"
+import Image from 'next/image'
 
 const useStyles = makeStyles({
   link: {
@@ -57,7 +58,7 @@ const Navbar = () => {
           <Toolbar>
             <Box sx={{ display: "flex", flexGrow: 1 }}>
               <Box component="span" sx={{ mr: 3 }}>
-                <img src="/logo.svg" alt="logo" />
+                <Image src="/logo.svg" alt="logo" />
               </Box>
               <Typography variant="h4">
                 <Box sx={{ fontWeight: "bold" }}>Product</Box>

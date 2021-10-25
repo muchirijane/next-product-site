@@ -31,16 +31,16 @@ export default function Cards() {
               marginTop: "10px",
               justifyContent: "center",
               alignItems: "center",
-              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.5)",
+              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.2)",
             }}
           >
             <MouseIcon fontSize="small" sx={{ color: grey["A100"] }}></MouseIcon>
           </Box>
           <CardContent>
-            <Typography fontFamily='Menlo' fontWeight="800" gutterBottom variant="h5" component="div">
+            <Typography  fontWeight="800" gutterBottom variant="h5" component="div">
               Special Business
             </Typography>
-            <Typography padding='30px' fontFamily='Menlo' variant="body2" color="text.secondary">
+            <Typography padding='30px'  variant="body1" color="text.secondary">
               Products help you see how many more days you need to work to reach your
               financial goal for the month and year.
             </Typography>
@@ -66,16 +66,16 @@ export default function Cards() {
               marginTop: "10px",
               justifyContent: "center",
               alignItems: "center",
-              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.5)",
+              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.2)",
             }}
           >
             <LinkIcon fontSize="small" sx={{ color: grey["A100"] }}></LinkIcon>
           </Box>
           <CardContent>
-            <Typography fontFamily='Menlo' fontWeight="800" gutterBottom variant="h5" component="div">
+            <Typography  fontWeight="800" gutterBottom variant="h5" component="div">
             Instant Result
             </Typography>
-            <Typography padding='30px' fontFamily='Menlo' variant="body2" color="text.secondary">
+            <Typography padding='30px'  variant="body1" color="text.secondary">
             Products help you see how many more days you need to work to reach your
           financial goal for the month and year
             </Typography>
@@ -100,16 +100,16 @@ export default function Cards() {
               marginTop: "10px",
               justifyContent: "center",
               alignItems: "center",
-              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.5)",
+              boxShadow: "0px 2px 8px rgba(0, 0, 0, 0.2)",
             }}
           >
             <Favorite fontSize="small" sx={{ color: grey["A100"] }}></Favorite>
           </Box>
           <CardContent>
-            <Typography fontFamily='Menlo' fontWeight="800" gutterBottom variant="h5" component="div">
+            <Typography  fontWeight="800" gutterBottom variant="h5" component="div">
             Fastest way to organize
             </Typography>
-            <Typography padding='30px' fontFamily='Menlo' variant="body2" color="text.secondary">
+            <Typography padding='30px'  variant="body1" color="text.secondary">
             Products help you see how many more days you need to work to reach your
           financial goal for the month and year
             </Typography>
