@@ -58,7 +58,7 @@ const Navbar = () => {
           <Toolbar>
             <Box sx={{ display: "flex", flexGrow: 1 }}>
               <Box component="span" sx={{ mr: 3 }}>
-                <Image src="/logo.svg" alt="logo" />
+                <Image src="/logo.svg" alt="logo" width={36} height={36} />
               </Box>
               <Typography variant="h4">
                 <Box sx={{ fontWeight: "bold" }}>Product</Box>

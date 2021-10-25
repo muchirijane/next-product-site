@@ -23,18 +23,21 @@ const WatchButton = styled(Button)({
 const Hero = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Container maxWidth="lg" sx={{ marginTop: "24px" }}>
+      <Container maxWidth="lg" sx={{ marginTop: "3rem" }} component='section'>
         <Grid
           container
           alignItems="center"
           justifyContent="space-between"
           direction="row-reverse"
-          spacing={4}
+          spacing={3}
         >
-          <Grid item xs={12} sm={8} justifyContent="right">
-            <Image src={amicoImage} alt="hero-image" width={600} height={556} />
+          <Grid item xs={12} md={6} justifyContent="right" >
+            
+             <Image src={amicoImage} alt="hero-image" width={500} height={556} />
+         
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} md={6} >
+            <div style={{width: "460px"}}>
             <Typography
               component="h4"
               variant="h4"
@@ -67,6 +70,7 @@ const Hero = () => {
                 Watch the Video
               </WatchButton>
             </Stack>
+            </div>
           </Grid>
         </Grid>
       </Container>
