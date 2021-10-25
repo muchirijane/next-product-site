@@ -9,7 +9,7 @@ import { ThemeProvider, styled } from "@mui/material/styles"
 import { PlayArrow } from "@mui/icons-material"
 import theme from "../src/theme"
 
-import amicoImage from "/website-assets/amico.svg"
+import amicoImage from "/public/home/amico.svg"
 
 const ButtonHero = styled(Button)({
   textTransform: "none",
@@ -23,16 +23,16 @@ const WatchButton = styled(Button)({
 const Hero = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Container maxWidth="xl" sx={{ marginTop: "24px" }}>
+      <Container maxWidth="lg" sx={{ marginTop: "24px" }}>
         <Grid
           container
           alignItems="center"
           justifyContent="space-between"
           direction="row-reverse"
-          spacing={2}
+          spacing={4}
         >
           <Grid item xs={12} sm={8} justifyContent="right">
-            <Image src={amicoImage} alt="hero-image" />
+            <Image src={amicoImage} alt="hero-image" width={600} height={556} />
           </Grid>
           <Grid item xs={12} sm={4}>
             <Typography

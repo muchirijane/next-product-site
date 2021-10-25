@@ -7,12 +7,12 @@ import Management from "../components/Management"
 export default function Home() {
   return (
     <Layout>
-      <Container maxWidth="lg">
+      
         <Hero />
         <Feature />
         <Management />
         <CustomerSupport />
-      </Container>
+     
     </Layout>
   )
 }
