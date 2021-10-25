@@ -93,8 +93,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://muchirijane.github.io/portfolio-gatsby/"><img src="https://avatars.githubusercontent.com/u/54930887?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jane Tracy Muthoni</b></sub></a><br /><a href="#projectManagement-muchirijane" title="Project Management">📆</a> <a href="https://github.com/muchirijane/next-product-site/commits?author=muchirijane" title="Code">💻</a> <a href="#maintenance-muchirijane" title="Maintenance">🚧</a> <a href="https://github.com/muchirijane/next-product-site/commits?author=muchirijane" title="Documentation">📖</a> <a href="#design-muchirijane" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/westerandr"><img src="https://avatars.githubusercontent.com/u/20700150?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andre Westerlund</b></sub></a><br /><a href="https://github.com/muchirijane/next-product-site/commits?author=westerandr" title="Code">💻</a></td>
     <td align="center"><a href="http://lesliethe.dev"><img src="https://avatars.githubusercontent.com/u/17536124?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Leslie L Behum</b></sub></a><br /><a href="https://github.com/muchirijane/next-product-site/commits?author=itsthecheat" title="Code">💻</a></td>
+    </tr>
+    <tr>
     <td align="center"><a href="https://github.com/chirayumit001"><img src="https://avatars.githubusercontent.com/u/84196347?v=4?s=100" width="100px;" alt=""/><br /><sub><b>chirayumit001</b></sub></a><br /><a href="https://github.com/muchirijane/next-product-site/commits?author=chirayumit001" title="Code">💻</a></td>
     <td align="center"><a href="https://aharrison.xyz"><img src="https://avatars.githubusercontent.com/u/8920897?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Harrison</b></sub></a><br /><a href="https://github.com/muchirijane/next-product-site/commits?author=alexjharrison" title="Code">💻</a></td>
+    <td align="center"><a href="tany4.com"><img src="https://avatars.githubusercontent.com/u/5974044?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tania Papazafeiropoulou</b></sub></a><br /><a href="https://github.com/muchirijane/next-product-site/commits?author=altany" title="Code">💻</a></td>
   </tr>
 </table>
 
