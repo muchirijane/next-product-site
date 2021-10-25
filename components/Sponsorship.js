@@ -51,7 +51,7 @@ export default function Sponsorship() {
 
           <Grid container spacing={2} marginTop="2rem" >
            {images.map((item,index)=>(
-             <Grid item xs={12} sm={6} md={3}>
+             <Grid key={index} item xs={12} sm={6} md={3}>
              <Image src={item.image} alt={item.alt} width={item.width} height={item.height} />
             
             </Grid>
