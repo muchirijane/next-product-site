@@ -21,7 +21,7 @@ const useStyles = makeStyles({
     "&:hover": {
       color: "#02897A",
       fontWeight: "bold",
-      Transition: "all 0.3s ease-in-out",
+      transition: "all 0.3s ease-in-out",
     },
   },
 })
