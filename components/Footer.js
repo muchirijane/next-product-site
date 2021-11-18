@@ -96,7 +96,7 @@ const Footer = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
           <Typography variant="h4" sx={{ fontSize: "20px", marginBottom: "20px" }}>
-            knowing you're always on the best energy deal.
+            Knowing you're always on the best energy deal.
           </Typography>
           <Box sx={{ display: "flex", flexDirection: "column" }}>
             <FormControl>
