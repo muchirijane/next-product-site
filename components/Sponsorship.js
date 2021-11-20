@@ -6,7 +6,8 @@ import microsoftLogo from "/public/customer/microsoft.svg"
 import airbnbLogo from "/public/customer/airbnb.svg"
 import fedexLogo from "/public/customer/fedex.svg"
 import googleLogo from "/public/customer/Google.svg"
-import Cards from "./cards"
+
+import ProductCards from "./ProductCards"
 
 export default function Sponsorship() {
   const images = [
@@ -72,7 +73,7 @@ export default function Sponsorship() {
           <Typography paddingTop="30px" fontWeight="800" variant="h3">
             Why Choose Product?
           </Typography>
-          <Cards />
+          <ProductCards />
         </Container>
       </Box>
     </>
