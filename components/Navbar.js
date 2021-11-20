@@ -14,7 +14,7 @@ import IconButton from "@mui/material/IconButton"
 import MenuItem from "@mui/material/MenuItem"
 import Menu from "@mui/material/Menu"
 import MenuIcon from "@mui/icons-material/Menu"
-import Image from 'next/image'
+import Image from "next/image"
 
 const useStyles = makeStyles({
   link: {
@@ -58,9 +58,9 @@ const Navbar = () => {
           <Toolbar>
             <Box sx={{ display: "flex", flexGrow: 1 }}>
               <Box component="span" sx={{ mr: 3 }}>
-                <Image src="/logo.svg" alt="logo" width={36} height={36} />
+                <Image src="/logo.svg" alt="logo" width={30} height={30} />
               </Box>
-              <Typography variant="h4">
+              <Typography variant="h6">
                 <Box sx={{ fontWeight: "bold" }}>Product</Box>
               </Typography>
             </Box>
@@ -74,7 +74,6 @@ const Navbar = () => {
                     color="inherit"
                     aria-label="menu"
                     onClick={handleMenu}
-                    sx={{ mr: 2 }}
                   >
                     <MenuIcon />
                   </IconButton>

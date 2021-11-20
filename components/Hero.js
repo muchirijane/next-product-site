@@ -23,7 +23,7 @@ const WatchButton = styled(Button)({
 const Hero = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Container maxWidth="lg" sx={{ marginTop: "3rem" }} component='section'>
+      <Container maxWidth="lg" sx={{ marginTop: "3rem" }} component="section">
         <Grid
           container
           alignItems="center"
@@ -31,45 +31,49 @@ const Hero = () => {
           direction="row-reverse"
           spacing={3}
         >
-          <Grid item xs={12} md={6} justifyContent="right" >
-            
-             <Image src={amicoImage} alt="hero-image" width={500} height={556} />
-         
+          <Grid item xs={12} md={6} justifyContent="right">
+            <Image
+              src={amicoImage}
+              alt="hero-image"
+              width={500}
+              height={556}
+              layout="responsive"
+            />
           </Grid>
-          <Grid item xs={12} md={6} >
-            <div style={{width: "460px"}}>
-            <Typography
-              component="h4"
-              variant="h4"
-              color="#22343D"
-              fontWeight={800}
-              mb={3}
-            >
-              Work at the speed of thought
-            </Typography>
-            <Typography variant="body1" color="#22343D" mb={5} fontWeight={400}>
-              Tools, tutorial, design and innovation experts, all in one place! The
-              most intuitive way to imagine your next user experience
-            </Typography>
-            <Stack direction="row" justifyContent="space-between" spacing={2}>
-              <ButtonHero
-                variant="contained"
-                color="secondary"
-                size="large"
-                fontWeight={700}
+          <Grid item xs={12} md={6}>
+            <div style={{ maxWidth: "460px" }}>
+              <Typography
+                component="h4"
+                variant="h4"
+                color="#22343D"
+                fontWeight={800}
+                mb={3}
               >
-                Get started
-              </ButtonHero>
-              <WatchButton
-                variant="text"
-                color="secondary"
-                size="large"
-                fontWeight={700}
-              >
-                <PlayArrow />
-                Watch the Video
-              </WatchButton>
-            </Stack>
+                Work at the speed of thought
+              </Typography>
+              <Typography variant="body1" color="#22343D" mb={5} fontWeight={400}>
+                Tools, tutorial, design and innovation experts, all in one place! The
+                most intuitive way to imagine your next user experience
+              </Typography>
+              <Stack direction="row" justifyContent="space-between" spacing={2}>
+                <ButtonHero
+                  variant="contained"
+                  color="secondary"
+                  size="large"
+                  fontWeight={700}
+                >
+                  Get started
+                </ButtonHero>
+                <WatchButton
+                  variant="text"
+                  color="secondary"
+                  size="large"
+                  fontWeight={700}
+                >
+                  <PlayArrow />
+                  Watch the Video
+                </WatchButton>
+              </Stack>
             </div>
           </Grid>
         </Grid>
